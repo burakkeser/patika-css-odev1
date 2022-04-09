@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürünlerimiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #navbar{
+            text-align: center;
+        }
+
+        .header-title{
+            color: blueviolet;
+            padding: 20px;
+            background-color:aquamarine;
+            font-size: 40px;
+        }
+
+        .navbar-list{
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;  
+            background-color: blueviolet;
+        }
+        .navbar-list a{
+            padding: 0px 50px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+        .urunler{
+            text-align: center;
+        }
+
+        .article-title{
+            color: blueviolet;
+            margin: 20px 0px;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER START -->
+    <header>
+        <nav id="navbar">
+            <h1 class="header-title">Kitap Dükkanım</h1>
+            <ul class="navbar-list">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="urunler.html">Ürünlerimiz</a></li>
+                <li><a href="about-us.html">Hakkımızda</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- CONTENT START -->
+    <article class="urunler">
+        <h2 class="article-title">Ürünlerimiz</h2>
+        <hr>
+        <img width="200px" src="images/stefan-zweig.jpg" alt="Olağanüstü Bir Gece">
+        <br>
+        <p><b>Olağanüstü Bir Gece</b></p>
+        <p>8 TL</p>
+        <br>
+        <hr>
+
+        <img width="200px" src="images/otomatik-portakal.jpg" alt="Otomatik Portakal">
+        <br>
+        <p><b>Otomatik Portakal</b></p>
+        <p>15 TL</p>
+        <br>
+        <hr>
+
+        <img width="200px" src="images/ilber-ortayli.jpg" alt="Bir Ömür Nasıl Yaşanır">
+        <br>
+        <p><b>Bir Ömür Nasıl Yaşanır</b></p>
+        <p>30 TL</p>
+        <br>
+        <hr>
+
+        <img width="200px" src="images/don-kisot.jpg" alt="Don Kişot">
+        <br>
+        <p><b>Don Quijote (2 Cilt Takım Kutulu)</b></p>
+        <p>105 TL</p>
+        <br>
+        <hr> 
+    </article>
+    <!-- CONTENT END -->
+</body>
+</html>
